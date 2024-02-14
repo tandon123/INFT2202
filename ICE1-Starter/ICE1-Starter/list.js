@@ -24,6 +24,7 @@ element = document.createElement("li");
 // Create a text node with the content "spinach"
 text = document.createTextNode("spinach");
 
+document.getElementsById
 // Add the text node to the second list item element
 element.appendChild(text);
 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Basic Hub</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" id="product"    href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Services.html">Services</a>
+              </li>
+              <li class="nav-item" id="about">
+                <a class="nav-link active" aria-current="page" href="About.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <img src="./images/2.jpg" alt="" width="100%">
+
+      <h1 class="mt-5">3 Things we like are:</h1>
+      <div class="cards d-flex justify-content-center mt-2" >
+        <div class="flip-card mx-4">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="./images/4.avif " alt="Avatar" style="width:300px;height:430px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>The physiology of money</h1> 
+                <p>By Morgan Housel</p> 
+                <p>Morgan Housel teaches you how to make better financial decisions and to have a healthier connection with money in his book The Psychology of Money. Rather than portraying people as ROI-maximizing machines, he demonstrates how psychology can both work in your favour and against you. </p>
+                
+                <a href="https://calvinrosser.com/notes/psychology-of-money-morgan-housel/"><button>Read More</button></a>
+
+                
+                </div>
+            </div>
+        </div>
+        <div class="flip-card mx-4">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="./images/5.jpg" alt="Avatar" style="width:300px;height:430px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>The Best Movie</h1> 
+                <p>Avengers Endgame</p> 
+                <p>Marvel movies never let us down when we were kids, and this one is astounding and above expectations. There is just one question to ask which movie theatre we should buy tickets for whenever a new Marvel film is released.</p>
+                <a href="https://en.wikipedia.org/wiki/Marvel_Comics"><button>Read More</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card mx-4">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                <img src="./images/6.jpg" alt="Avatar" style="width:300px;height:430px;">
+                </div>
+                <div class="flip-card-back">
+                <h1>The Best TV show Ever</h1> 
+                <p>Tarak Mehta Ka Oolta Chasma(TMKOC)</p> 
+                <p>The show is centred on the diverse members of the Gokuldham Co-operative Housing Society, which is an apartment complex located in Powder Gali, Film City Road, Goregaon East, Mumbai.People in a society try to foster unity amidst diversity by living as a family and supporting one another during difficult times. Gokuldham's members plan several events and observe all the festivals.</p>
+                <a href="https://en.wikipedia.org/wiki/Taarak_Mehta_Ka_Ooltah_Chashmah"><button>Read More</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- Footer -->
+    <footer class="footer fixed-bottom bg-dark text-white">
+        <div class="container">
+            <span class="text-muted">Copyright &copy; <span id="currentYear">2024</span>,ASA.Pvt.Ltd</span>
+        </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
